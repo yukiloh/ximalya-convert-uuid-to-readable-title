@@ -30,10 +30,10 @@
 
 主程序在```src/test/java/com.example.demo/RunMe```中
 
-1.在RunMe中,设置数据库(ximalaya.db,需要从已root的手机中获取),源文件位置(m4aPath),需要储存的位置(saveTo)
+1. 在RunMe中,需要设置数据库(ximalaya.db,需要从已root的手机中获取),源文件位置(m4aPath),需要储存的位置(saveTo)
 
-2.需要将m2x转换为m4a的软件,转换工具位置/resources/tools/ximalaya_downloader_&_x2m_decoder.rar
-只需要使用x2m to m4a功能.也可以网上自行查找同类工具.
+2. 需要将m2x转换为m4a的软件,转换工具已放在```/resources/tools/ximalaya_downloader_&_x2m_decoder.rar```
+只需要使用x2m to m4a功能.也可以网上自行查找同类工具,本人比较懒
 
 3.运行```main()```即可(本人比较喜欢使用@Test来执行)
 
